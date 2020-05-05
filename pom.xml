@@ -17,6 +17,8 @@
         <module>order</module>
         <module>user</module>
         <module>eurekaserver</module>
+        <module>configserver</module>
+        <module>order</module>
     </modules>
 
     <!-- 引入Spring Boot依赖 -->
@@ -73,4 +75,18 @@
         </dependencies>
     </dependencyManagement>
 
+    <!-- 远程仓库中心啥啥啥  -->
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>http://host:port/content/groups/public</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>central</id>
+            <url>http://host:port/content/groups/public</url>
+        </pluginRepository>
+    </pluginRepositories>
 </project>
