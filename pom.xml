@@ -19,6 +19,8 @@
         <module>eurekaserver</module>
         <module>configserver</module>
         <module>order</module>
+        <module>menu</module>
+        <module>client</module>
     </modules>
 
     <!-- 引入Spring Boot依赖 -->
